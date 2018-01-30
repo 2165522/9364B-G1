@@ -3,3 +3,6 @@ TO DO
 	Information Dissemination - Vincent
 	Tanods on Rounds - Gian
 	Barangay Security Surveillance - Chari
+
+	//refer to GatheredData.txt for initial understanding and
+	content on your own words
