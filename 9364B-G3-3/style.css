@@ -1,0 +1,233 @@
+body{
+    background-color: azure;
+    margin: 0px;
+    padding: 0;
+}
+
+.anchor{
+  display: block;
+  height: 45px; /*same height as header*/
+  margin-top: -45px; /*same height as header*/
+  visibility: hidden;
+}
+
+ul {
+    position: sticky;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: rgba(0,51,0,0.8);
+    font-family: Typo Grotesk Thin Demo;
+}
+
+li {
+    float: left;
+}
+
+li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+/* Change the link color to #111 (black) on hover */
+li a:hover {
+    background-color: #111;
+}
+
+
+
+/*HEADERS*/
+h1{
+    font-family: Abeat;
+    font-size:50px;
+    color: white;
+    margin-bottom: 0;
+    margin-top: 12px;
+}
+
+h2 {
+    font-family: The Brooklyn Bold;
+    text-align: center;
+    margin: 0;
+    line-height: 50px;
+}
+
+h3{
+    font-family: Typo Grotesk Italic Demo;
+    color: white;
+    margin-top: 0;
+    margin-bottom: 72px;
+    margin-left: 12px;
+    text-align: center;
+}
+
+/*PARAGRAPHS*/
+.imgdesc{  
+    font-family: Abeat;
+    text-align: justify;  
+    font-size: 30px;
+    text-indent: 40px;
+}
+
+.acknowledgement p{
+    font-family: Abeat;
+    text-align: justify;  
+    font-size: 20px;
+    text-indent: 40px;
+}
+
+/* IMG */
+.img1 {
+    width: 100%;
+    object-fit: cover;
+    display: block;
+}
+
+.logo{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 10%;
+}
+
+.he1{
+    margin-top: -12px;
+    position: relative;
+    width: 100%;
+    height: 450px;
+    background: url(images/cover.jpg);
+    background-size: cover;
+    text-align: center;
+    line-height: 450px;
+}
+
+.he2{
+    background-color: rgba(0,0,0,0.5);
+}
+
+/* DIV */
+
+.nav {
+    position: sticky;
+    top: 0;
+    float: inherit;
+}
+
+.maincontent{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: azure;
+}
+
+.content1{
+    
+}
+
+.desc1a{
+    width: 50%;
+    height: auto;
+    background-color: rgba(255,255,255,0.5);
+    float: inherit;
+    overflow: hidden;
+    right: 10px;
+    transform: translate(-10%, -120%);
+    position: absolute;
+    padding: 25px;
+}
+
+.titlehead{
+    width: 100%;
+    position: sticky;
+    height: 50px;
+    top: 45px;
+    float: inherit;
+    overflow: hidden;
+    background-color: azure;
+}
+
+.acknowledgement{
+    padding-left: 100px;
+    padding-right: 100px;
+    margin: 0;
+    height:auto;
+}
+
+.copyright{
+    line-height: 20px;
+    font-family: sans-serif;
+    text-align: center;
+    background-color: rgba(0,51,0,0.8);
+    padding: 20px;
+    color: azure;
+}
+
+/* FONTS */
+@font-face {
+    font-family: Code Bold;
+    src: url("fonts/CODE Bold.otf");
+}
+
+@font-face {
+    font-family: Code Light;
+    src: url("fonts/CODE Light.otf");
+}
+
+@font-face {
+    font-family: The Brooklyn;
+    src: url("fonts/The Brooklyn.otf");
+}
+
+@font-face {
+    font-family: The Brooklyn Bold;
+    src: url("fonts/The Brooklyn Bold.otf");
+}
+
+@font-face {
+    font-family: Typo Grotesk Black Demo;
+    src: url("fonts/Typo Grotesk Black Demo.otf");
+}
+
+@font-face {
+    font-family: Typo Grotesk Black Italic Demo;
+    src: url("fonts/Typo Grotesk Black Italic Demo.otf");
+}
+
+@font-face {
+    font-family: Typo Grotesk Bold Demo;
+    src: url("fonts/Typo Grotesk Bold Demo.otf");
+}
+
+@font-face {
+    font-family: Typo Grotesk bold Italic Demo;
+    src: url("fonts/Typo Grotesk Bold Italic Demo.otf");
+}
+
+@font-face {
+    font-family: Typo Grotesk Demo;
+    src: url("fonts/Typo Grotesk Demo.otf");
+}
+
+@font-face {
+    font-family: Typo Grotesk Italic Demo;
+    src: url("fonts/Typo Grotesk Italic Demo.otf");
+}
+
+@font-face {
+    font-family: Typo Grotesk Thin Demo;
+    src: url("fonts/Typo Grotesk Thin Demo.otf");
+}
+
+@font-face {
+    font-family: Typo Grotesk Thin Italic Demo;
+    src: url("fonts/Typo Grotesk Thin Italic Demo.otf");
+}
+
+@font-face {
+    font-family: Abeat;
+    src: url("fonts/ABEAKRG.TTF");
+}
