@@ -98,6 +98,7 @@ h3{
     position: sticky;
     top: 0;
     float: inherit;
+    z-index: 100;
 }
 
 .maincontent{
@@ -147,6 +148,7 @@ h3{
     float: inherit;
     overflow: hidden;
     background-color: azure;
+    z-index: 100;
 }
 
 .acknowledgement{
