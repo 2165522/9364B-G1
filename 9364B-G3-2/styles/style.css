@@ -33,7 +33,6 @@ li a {
     text-decoration: none;
 }
 
-/* Change the link color to #111 (black) on hover */
 li a:hover {
     background-color: #111;
 }
@@ -93,6 +92,20 @@ h3{
     margin-right: auto;
     width: 10%;
 }
+/* DIV */
+
+.nav {
+    position: sticky;
+    top: 0;
+    float: inherit;
+}
+
+.maincontent{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: azure;
+}
 
 .he1{
     margin-top: -12px;
@@ -109,20 +122,6 @@ h3{
     background-color: rgba(0,0,0,0.5);
 }
 
-/* DIV */
-
-.nav {
-    position: sticky;
-    top: 0;
-    float: inherit;
-}
-
-.maincontent{
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
-    background-color: azure;
-}
 
 .content1{
     
@@ -167,67 +166,28 @@ h3{
 }
 
 /* FONTS */
-@font-face {
-    font-family: Code Bold;
-    src: url("fonts/CODE Bold.otf");
-}
-
-@font-face {
-    font-family: Code Light;
-    src: url("fonts/CODE Light.otf");
-}
 
 @font-face {
     font-family: The Brooklyn;
-    src: url("fonts/The Brooklyn.otf");
+    src: url("../fonts/The Brooklyn.otf");
 }
 
 @font-face {
     font-family: The Brooklyn Bold;
-    src: url("fonts/The Brooklyn Bold.otf");
-}
-
-@font-face {
-    font-family: Typo Grotesk Black Demo;
-    src: url("fonts/Typo Grotesk Black Demo.otf");
-}
-
-@font-face {
-    font-family: Typo Grotesk Black Italic Demo;
-    src: url("fonts/Typo Grotesk Black Italic Demo.otf");
-}
-
-@font-face {
-    font-family: Typo Grotesk Bold Demo;
-    src: url("fonts/Typo Grotesk Bold Demo.otf");
-}
-
-@font-face {
-    font-family: Typo Grotesk bold Italic Demo;
-    src: url("fonts/Typo Grotesk Bold Italic Demo.otf");
-}
-
-@font-face {
-    font-family: Typo Grotesk Demo;
-    src: url("fonts/Typo Grotesk Demo.otf");
+    src: url("../fonts/The Brooklyn Bold.otf");
 }
 
 @font-face {
     font-family: Typo Grotesk Italic Demo;
-    src: url("fonts/Typo Grotesk Italic Demo.otf");
+    src: url("../fonts/Typo Grotesk Italic Demo.otf");
 }
 
 @font-face {
     font-family: Typo Grotesk Thin Demo;
-    src: url("fonts/Typo Grotesk Thin Demo.otf");
-}
-
-@font-face {
-    font-family: Typo Grotesk Thin Italic Demo;
-    src: url("fonts/Typo Grotesk Thin Italic Demo.otf");
+    src: url("../fonts/Typo Grotesk Thin Demo.otf");
 }
 
 @font-face {
     font-family: Abeat;
-    src: url("fonts/ABEAKRG.TTF");
+    src: url("../fonts/ABEAKRG.TTF");
 }
