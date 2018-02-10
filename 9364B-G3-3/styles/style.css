@@ -26,6 +26,8 @@ li {
 }
 
 li a {
+    font-size: 20px;
+    font-size: calc(12px + 0.7vw);
     display: block;
     color: white;
     text-align: center;
@@ -42,13 +44,14 @@ li a:hover {
 /*HEADERS*/
 h1{
     font-family: Abeat;
-    font-size:50px;
+    font-size:calc(0.5px + 3.5vw);
     color: white;
     margin-bottom: 0;
     margin-top: 12px;
 }
 
 h2 {
+    font-size: calc(17px + 1.2vw);
     font-family: The Brooklyn Bold;
     text-align: center;
     margin: 0;
@@ -66,16 +69,21 @@ h3{
 
 /*PARAGRAPHS*/
 .imgdesc{  
-    font-family: Abeat;
+    font-family: Century Gothic;
     text-align: justify;  
-    font-size: 30px;
+    font-size: calc(5px + 2vw);
+    font-weight: 400;
+    text-transform: uppercase;
     text-indent: 40px;
+    margin: 0;
+    line-height: auto;
+    color: rgba(255,255,255,1);
 }
 
 .acknowledgement p{
     font-family: Abeat;
     text-align: justify;  
-    font-size: 20px;
+    font-size: calc(10px + 1vw);
     text-indent: 40px;
 }
 
@@ -90,7 +98,7 @@ h3{
     display: block;
     margin-left: auto;
     margin-right: auto;
-    width: 10%;
+    width: calc(30px + 10%);
 }
 /* DIV */
 
@@ -120,22 +128,22 @@ h3{
 }
 
 .he2{
-    background-color: rgba(0,0,0,0.5);
+    background-color: rgba(0,0,0,0.7);
+    height: 450px;
 }
 
 
-.content1{
-    
+.content1a{
+    background-color: rgba(0,0,0,0.7);
 }
 
 .desc1a{
-    width: 50%;
+    display: block;
     height: auto;
-    background-color: rgba(255,255,255,0.5);
-    float: inherit;
+    background-color: rgba(0,0,0,0.7);
     overflow: hidden;
-    right: 10px;
-    transform: translate(-10%, -120%);
+    /*right: 10px;*/
+    transform: translate(0%, -100%);
     position: absolute;
     padding: 25px;
 }
@@ -152,15 +160,16 @@ h3{
 }
 
 .acknowledgement{
-    padding-left: 100px;
-    padding-right: 100px;
+    padding-left: 2%;
+    padding-right: 2%;
     margin: 0;
     height:auto;
 }
 
 .copyright{
-    line-height: 20px;
-    font-family: sans-serif;
+    line-height: auto;
+    font-family: Century gothic;
+    font-size: calc(10px + 0.5vw);
     text-align: center;
     background-color: rgba(0,51,0,0.8);
     padding: 20px;
@@ -192,4 +201,9 @@ h3{
 @font-face {
     font-family: Abeat;
     src: url("../fonts/ABEAKRG.TTF");
+}
+
+@font-face {
+    font-family: Century Gothic;
+    src: url("../fonts/GOTHIC.TTF");
 }
