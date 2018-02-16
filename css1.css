@@ -1,0 +1,164 @@
+html {
+	margin: 0;
+	padding: 0;
+	}
+
+body { 
+	font: 75% georgia, sans-serif;
+	background-color: rgba(58,0,0,0.2);
+	}
+
+.img1 {
+	width: 50%;
+	height: 50%;
+	position: relative;
+	right: 0;
+	top: 350px;
+	border: 3px solid pink;
+	animation: moveRight;
+}
+
+.he1{
+    height: 10px;	
+}
+
+.he2{
+	margin-top: -12px;
+    position: sticky;
+    width: 95%;
+    height: 400px;
+    background: url(../images/cover.jpg);
+	background-repeat: no-repeat;
+    text-align: center;
+    line-height: 450px;
+	opacity: 0.7;
+	animation: move 5s infinite;
+	animation-delay: 2s;
+}
+
+@keyframes blinker {  
+  50% { opacity: 0; }
+}
+
+@keyframes move {
+    from {left: 0px;}
+    to {left: 200px;}
+}
+
+@keyframes moveRight {
+    from {right: 0px;}
+    to {right: 200px;}
+}
+
+
+h1 {
+	color: black;
+    margin-bottom: 0;
+    margin-top: 0px;
+	text-align: center;
+	font-size: 50px;
+	animation: blinker 1s linear 2;
+}
+
+ul {
+    position: sticky;
+    list-style-type: none;
+	top: 500px;
+    overflow: hidden;
+    background: rgba(58,0,0,0.6);
+	padding: 15px;
+    font-family: Typo Grotesk Thin Demo;
+}
+
+li {
+    float: left;
+}
+
+li a {
+    font-size: 20px;
+    font-size: calc(12px + 0.7vw);
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+li a:hover {
+	background: rgba(255,0,0,0.4);
+	animation: blinker 1s linear 1;
+}
+
+.nav {
+    position: relative;
+    top: 370px;
+    float: inherit;
+    z-index: 100;
+}
+
+.anchor{
+  display: block;
+  height: 45px;
+  margin-top: -45px;
+  visibility: hidden;
+}
+
+h2 {
+    font-size: calc(17px + 1.2vw);
+    font-family: The Brooklyn Bold;
+    text-align: center;
+    margin: 0;
+    line-height: 50px;
+}
+
+.titlehead{
+    width: 100%;
+    position: sticky;
+    height: 50px;
+    top: 45px;
+    float: inherit;
+    overflow: hidden;
+    z-index: 100;
+	background-color: azure;
+	opacity: 0.7;
+}
+
+
+h3{
+    font-family: Typo Grotesk Italic Demo;
+    color: white;
+    margin-top: 0;
+    margin-bottom: 72px;
+    margin-left: 12px;
+    text-align: center;
+}
+
+.maincontent{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+@keyframes opaque {  
+  from { rgba(255, 0, 0, 0.2); }
+to { rgba(255, 0, 0, 0.6); }
+
+}
+
+.acknowledgement{
+    padding-left: 2%;
+    padding-right: 2%;
+    margin: 0;
+    height:auto;
+}
+
+.copyright{
+    line-height: auto;
+    font-family: Century gothic;
+    font-size: calc(10px + 0.5vw);
+    text-align: center;
+    background-color: rgba(58,0,0,0.6);
+    padding: 20px;
+    color: azure;
+}
+
