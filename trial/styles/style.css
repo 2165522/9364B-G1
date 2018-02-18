@@ -1,0 +1,209 @@
+body{
+    background-color: azure;
+    margin: 0px;
+    padding: 0;
+}
+
+.anchor{
+  display: block;
+  height: 45px; /*same height as header*/
+  margin-top: -45px; /*same height as header*/
+  visibility: hidden;
+}
+
+ul {
+    position: sticky;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: rgba(0,51,0,0.8);
+    font-family: Typo Grotesk Thin Demo;
+}
+
+li {
+    float: left;
+}
+
+li a {
+    font-size: 20px;
+    font-size: calc(12px + 0.7vw);
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+li a:hover {
+    background-color: #111;
+}
+
+
+
+/*HEADERS*/
+h1{
+    font-family: Abeat;
+    font-size:calc(0.5px + 3.5vw);
+    color: white;
+    margin-bottom: 0;
+    margin-top: 12px;
+}
+
+h2 {
+    font-size: calc(17px + 1.2vw);
+    font-family: The Brooklyn Bold;
+    text-align: center;
+    margin: 0;
+    line-height: 50px;
+}
+
+h3{
+    font-family: Typo Grotesk Italic Demo;
+    color: white;
+    margin-top: 0;
+    margin-bottom: 72px;
+    margin-left: 12px;
+    text-align: center;
+}
+
+/*PARAGRAPHS*/
+.imgdesc{  
+    font-family: Century Gothic;
+    text-align: justify;  
+    font-size: calc(5px + 2vw);
+    font-weight: 400;
+    text-transform: uppercase;
+    text-indent: 40px;
+    margin: 0;
+    line-height: auto;
+    color: rgba(255,255,255,1);
+}
+
+.acknowledgement p{
+    font-family: Abeat;
+    text-align: justify;  
+    font-size: calc(10px + 1vw);
+    text-indent: 40px;
+}
+
+/* IMG */
+.img1 {
+    width: 100%;
+    object-fit: cover;
+    display: block;
+}
+
+.logo{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: calc(30px + 10%);
+}
+/* DIV */
+
+.nav {
+    position: sticky;
+    top: 0;
+    float: inherit;
+    z-index: 100;
+}
+
+.maincontent{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: azure;
+}
+
+.he1{
+    margin-top: -12px;
+    position: relative;
+    width: 100%;
+    height: 450px;
+    background: url(../images/cover.jpg);
+    background-size: cover;
+    text-align: center;
+    line-height: 450px;
+}
+
+.he2{
+    background-color: rgba(0,0,0,0.7);
+    height: 450px;
+}
+
+
+.content1a{
+    background-color: rgba(0,0,0,0.7);
+}
+
+.desc1a{
+    display: block;
+    height: auto;
+    background-color: rgba(0,0,0,0.7);
+    overflow: hidden;
+    /*right: 10px;*/
+    transform: translate(0%, -100%);
+    position: absolute;
+    padding: 25px;
+}
+
+.titlehead{
+    width: 100%;
+    position: sticky;
+    height: 50px;
+    top: 45px;
+    float: inherit;
+    overflow: hidden;
+    background-color: azure;
+    z-index: 100;
+}
+
+.acknowledgement{
+    padding-left: 2%;
+    padding-right: 2%;
+    margin: 0;
+    height:auto;
+}
+
+.copyright{
+    line-height: auto;
+    font-family: Century gothic;
+    font-size: calc(10px + 0.5vw);
+    text-align: center;
+    background-color: rgba(0,51,0,0.8);
+    padding: 20px;
+    color: azure;
+}
+
+/* FONTS */
+
+@font-face {
+    font-family: The Brooklyn;
+    src: url("../fonts/The Brooklyn.otf");
+}
+
+@font-face {
+    font-family: The Brooklyn Bold;
+    src: url("../fonts/The Brooklyn Bold.otf");
+}
+
+@font-face {
+    font-family: Typo Grotesk Italic Demo;
+    src: url("../fonts/Typo Grotesk Italic Demo.otf");
+}
+
+@font-face {
+    font-family: Typo Grotesk Thin Demo;
+    src: url("../fonts/Typo Grotesk Thin Demo.otf");
+}
+
+@font-face {
+    font-family: Abeat;
+    src: url("../fonts/ABEAKRG.TTF");
+}
+
+@font-face {
+    font-family: Century Gothic;
+    src: url("../fonts/GOTHIC.TTF");
+}
